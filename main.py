@@ -83,6 +83,7 @@ class Register(Resource):
         
         except Exception as e:
             return {"error" : {"Internal Error"}}, 500
+
 # login users
 class Login(Resource):
     def post(self):
